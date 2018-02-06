@@ -86,6 +86,7 @@ img{
   position: relative;
   background:linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 70%), url("images/book.jpeg");
   background-repeat:no-repeat;
+  background-position: center;
   background-size:cover;
   background-attachment: fixed;
 }

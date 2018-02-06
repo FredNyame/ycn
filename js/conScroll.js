@@ -6,7 +6,7 @@ function whenScroll() {
 
  //if the scroll get to this point execute the code
  if(wScroll <= contactHeadHeight){
-   document.querySelector('#con-head').style.backgroundPosition = "center "+ (wScroll / -10) + "px";
+   document.querySelector('#con-head').style.backgroundPosition = "center "+ (wScroll / -20) + "px";
  }
 
  //landing element
