@@ -5,9 +5,7 @@ function whenScroll() {
  var wScroll = window.scrollY;
 
  //if the scroll get to this point execute the code
- if( wScroll <= abtHeadHeight){
-   document.querySelector('#ab-head').style.backgroundPosition = "center "+ (wScroll / -20) + "px";
- }
+   document.querySelector('#ab-head').style.backgroundPosition = "center "+ (wScroll * 0.25) + "px";
 
 }
 

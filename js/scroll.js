@@ -5,11 +5,10 @@ function whenScroll() {
  var wScroll = window.scrollY;
 
  //if the scroll get to this point execute the code
- if(wScroll <= headerHeight){
-   document.querySelector('#header-height').style.backgroundPosition = "center "+ (wScroll / -20) + "px";
+   document.querySelector('#header-height').style.backgroundPosition = "center "+ (wScroll * 0.25) + "px";
    document.querySelector('#mid-con').style.top = (wScroll / 2) +"px";
    document.querySelector('#mid-con').style.bottom = (wScroll / -2) +"px";
- }
+
 }
 
 //EventListener
