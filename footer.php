@@ -2,7 +2,7 @@
 <footer class="footer_wrapper">
 <div class="container">
 <div class="col-6">
-  <p class="p_color"> Websiite Designed & Powered by <a href="thecitylight8@gmail.com">Fred Nyame</a></p>
+  <p class="p_color">Designed & Powered by <a href="thecitylight8@gmail.com">Fred Nyame</a></p>
 </div>
 <div class="col-6 text-center">
   <p class="footer-p right">Stay in touch with us on our social media networks</p>
@@ -14,7 +14,7 @@
 
 <div class="container">
   <div class="col-12 text-center">
-  <p class="p-copy"> &copy; Copyright 2017. All Right Reserved. </p>
+  <p class="p-copy"> &copy; Copyright All Right Reserved. </p>
   </div>
 </div>
 <!--<div class="col-md-4 col-sm-12 col-xs-12">

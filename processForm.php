@@ -4,6 +4,8 @@
  //error messsges variable
  $nameErr = $emailErr = $messageErr = '';
 
+ $error = [];
+
  //check if the form was submitted
  if(isset($_POST['submit'])){
    //check if all fields are empty
@@ -43,6 +45,9 @@
    $messageErr = "Message field is required";
    }
 
+  $error = array('names' =>$nameErr,  'emails' =>$emailErr, 'messages' =>$messageErr, 'successs'=>$success);
+     echo json_encode($error);
+
    //if there is no errors do this
    if($nameErr == "" && $emailErr == "" && $messageErr == ""){
      unset($_POST['submit']);
@@ -63,9 +68,6 @@
 
      }
    }
-
-   $error = ['name' => $nameErr, 'email' => $emailErr, 'message' => $messageErr, 'success'=> $success];
-     echo json_encode($error);
  }
 
  //fucntion to check the data first

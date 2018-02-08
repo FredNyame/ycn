@@ -36,13 +36,13 @@ $pagetitle = 'Contact Us | Yes I can Educational Center';
     <form id="formsubmit" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
       <label for="name">Your Full Name</label>
       <input id="name" type="text" name="name" placeholder="Please enter your name" value="<?php echo isset($_POST['name']) ? $name : '';?>">
-      <p id="nameerr" class="error-msg"><?php echo $nameErr ?></p>
+      <p id="nameerr" class="error-msg"></p>
       <label for="email">Email Address</label>
       <input id="email" type="text" name="email" placeholder="Example@email.com" value="<?php echo isset($_POST['email']) ? $email : '';?>">
-      <p id="emailerr" class="error-msg"><?php echo $emailErr ?></p>
+      <p id="emailerr" class="error-msg"></p>
       <label for="message">How can we help you?</label>
       <textarea id="message" name="message" id="" cols="30" rows="10" placeholder="What on your mind?"><?php echo isset($_POST['message']) ? $message : '';?></textarea>
-      <p id="messageerr" class="error-msg"><?php echo $messageErr ?></p>
+      <p id="messageerr" class="error-msg"></p>
       <input id="submit" type="submit" name="submit" value="SEND MESSAGE">
       <p id="success" class="error-suc"></p>
     </form>

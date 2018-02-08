@@ -1,5 +1,3 @@
-var contactHeadHeight = document.querySelector("#con-head").offsetHeight;
-
 //Function to execute when scrolled
 function whenScroll() {
  var wScroll = window.scrollY;

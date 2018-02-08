@@ -34,21 +34,15 @@ function sendForm(e){
 }
 
 function renderMsg(data){
-   var errorName = '';
-   var errorEmail = '';
-   var errorMsg = '';
-   var msgSuccess = '';
+   for(var i = 0; i < data.length; i++){
+     //var errorName = data[i].names;
+     var errorEmail = data[i].emails;
+     //var errorMsg = data[i].messages;
+   }
 
-  for (var i = 0; i < data.length; i++) {
-    var errorName += data[i].name;
-    var errorEmail += data[i].email;
-    var errorMsg += data[i].message;
-    var msgSuccess += data[i].success;
-  }
-    document.getElementById('nameerr').innerHTML =  errorName;
-    document.getElementById('emailerr').innerHTML = errorEmail;
-    document.getElementById('messageerr').innerHTML = errorMsg;
-    document.getElementById('success').innerHTML = msgSuccess;
+   return document.getElementById('nameerr').innerHTML = errorName;
+   return document.getElementById('emailerr').innerHTML = errorEmail;
+   return document.getElementById('messageerr').innerHTML = errorMsg;
 }
 
 //add event listener

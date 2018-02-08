@@ -1,5 +1,3 @@
-var headerHeight = document.querySelector('#header-height').offsetHeight;
-
 //Function to execute when scrolled
 function whenScroll() {
  var wScroll = window.scrollY;

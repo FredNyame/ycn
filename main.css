@@ -94,8 +94,8 @@ img{
   width: 100%;
 }
 .logo{
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   float:left;
   margin-top:10px;
   margin-left: 10px;
@@ -298,7 +298,7 @@ a:hover.logo{
   width: 100%;
   text-align: center;
   //padding: 50px 20px;
-  margin-top: 100px;
+  margin-top: 60px;
   color: white;
   //transition: transform 0.005s linear 0s;
 }
@@ -307,9 +307,8 @@ a:hover.logo{
   padding-bottom: 25px;
   letter-spacing:2px;
   font-weight:500;
-  //font-size: 45px;
+  font-size: 30px;
   line-height: 1.2em;
-  //margin: 0;
   animation: slideUp 2s linear;
   -webkit-animation: slideUp 2s linear;
   -moz-animation: slideUp 2s linear;
@@ -478,7 +477,7 @@ a:hover.logo{
   height:450px;
   background:linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 100%),url("images/contact.jpeg");
   background-size:cover;
-   background-position: center;
+  background-position: center;
   background-repeat:no-repeat;
   //background-attachment: fixed;
   background-color:#233237;
@@ -953,7 +952,6 @@ form{
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
-  padding: 0px 30px;
 }
 label{
    width:100%;

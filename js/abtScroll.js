@@ -1,5 +1,3 @@
-var abtHeadHeight = document.querySelector('#ab-head').offsetHeight;
-
 //Function to execute when scrolled
 function whenScroll() {
  var wScroll = window.scrollY;
